@@ -1,0 +1,5 @@
+qureg x1[2]; // 2-qubit quantum register x1
+qureg x2[2]; // 2-qubit quantum register x2
+H(x1); // Hadamard operation on x1
+H(x2[1]); // Hadamard operation on the first qubit of the register x2
+
